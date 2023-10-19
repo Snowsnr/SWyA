@@ -135,13 +135,13 @@ function colocar2(){
 function reiniciar(){
     document.getElementById("txt").value = "";
     document.getElementById("txtClave").value = "";
-    document.getElementById("res").innerText = "";
+    document.getElementById("res").value = "";
 }
 
 function reiniciar2(){
     document.getElementById("txt").value = "";
     document.getElementById("desplazamiento").value = 13;
-    document.getElementById("cifradoC").innerText = "";
+    document.getElementById("cifradoC").value = "";
 }
 
 const value = document.querySelector("#value");
