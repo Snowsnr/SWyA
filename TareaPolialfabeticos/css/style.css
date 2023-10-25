@@ -9,6 +9,8 @@
   padding: 50px 100px;
   border: 2px solid black;
   box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px black;
+
+
 }
 
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
@@ -21,7 +23,7 @@ body {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2210775-jpeg.jpg") center center no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 135vh;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -60,4 +62,9 @@ input:-webkit-autofill:focus {
   -webkit-text-fill-color: #2A293E;
   -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
   transition: background-color 5000s ease-in-out 0s;
+}
+
+.btn {
+  background-color: #61c0b3;
+  color: #fff;
 }

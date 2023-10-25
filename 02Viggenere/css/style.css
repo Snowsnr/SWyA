@@ -56,6 +56,12 @@ input:-webkit-autofill:focus {
 }
 
 .btn {
-  background-color: #61c0b3;
-  color: #fff;
+    display: block;
+    margin: 20px auto; /* Aumento de la separación entre los botones */
+    padding: 8px 16px; /* Tamaño del botón */
+    background-color: #61c0b3; /* Morado claro */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
 }

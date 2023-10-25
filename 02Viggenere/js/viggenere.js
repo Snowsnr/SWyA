@@ -123,5 +123,5 @@ function colocar(){
 function reiniciar(){
     document.getElementById("txt").value = "";
     document.getElementById("txtClave").value = "";
-    document.getElementById("res").innerText = "";
+    document.getElementById("res").value = "";
 }
